@@ -10,8 +10,8 @@
 	<keywords>flurry,analytics,phonegap,cordova</keywords>
 	<author>Patrick Heneise, The Mobile Firm</author>
 
-	<js-module src="www/flurryPlugin.js" name="device">
-			<clobbers target="device" />
+	<js-module src="www/flurryPlugin.js" name="FlurryPlugin">
+			<clobbers target="FlurryPlugin" />
 	</js-module>
 	
 	<engines>
