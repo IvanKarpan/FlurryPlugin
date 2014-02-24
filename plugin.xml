@@ -20,8 +20,8 @@
 
 	<platform name="ios">
 		<config-file target="config.xml" parent="/*">
-			<feature name="FlurryPlugin">
-					<param name="ios-package" value="Flurry"/>
+			<feature name="Flurry">
+					<param name="ios-package" value="FlurryPlugin"/>
 			</feature>
 		</config-file>
 		<header-file src="src/ios/Flurry.h" />
