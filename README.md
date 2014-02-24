@@ -12,8 +12,8 @@ Forked from https://github.com/jfpsf/flurry-phonegap-plugin and made a proper Co
 
 ## Contributors
 
-- (jfpsf)[https://github.com/jfpsf]
-- (Koray Balcı)[https://github.com/Koraybalci]
+- [jfpsf](https://github.com/jfpsf)
+- [Koray Balcı](https://github.com/Koraybalci)
 
 ## License
 Apache 2.0
