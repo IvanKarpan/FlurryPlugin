@@ -11,16 +11,16 @@
 	<author>Patrick Heneise, The Mobile Firm</author>
 
 	<js-module src="www/flurryPlugin.js" name="FlurryPlugin">
-			<clobbers target="FlurryPlugin" />
+		<clobbers target="FlurryPlugin" />
 	</js-module>
 	
 	<engines>
-			<engine name="cordova" version="&gt;=3.0.0" />
+		<engine name="cordova" version="&gt;=3.0.0" />
 	</engines>
 
 	<platform name="ios">
 		<config-file target="config.xml" parent="/*">
-			<feature name="Flurry">
+			<feature name="FlurryPlugin">
 					<param name="ios-package" value="FlurryPlugin"/>
 			</feature>
 		</config-file>
