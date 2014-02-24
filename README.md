@@ -5,9 +5,13 @@ Forked from https://github.com/jfpsf/flurry-phonegap-plugin and made a proper Co
 
 ## Usage
 
-1. cordova plugin add https://github.com/PatrickHeneise/FlurryPlugin.git
-2. Call the startSession() method, with your app key, after the device is ready
-3. Call the other Flurry methods as appropriate.
+    cordova plugin add https://github.com/PatrickHeneise/FlurryPlugin.git
+
+
+Verify that `libFlurry.a` is in the Build Phases/Link Binary with Libraries and the Frameworks `CFNetwork`, `Security` and `SystemConfiguration` frameworks are added.
+
+1. Call the startSession() method, with your app key, after the device is ready
+2. Call the other Flurry methods as appropriate.
 
 
 ## Contributors
