@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin 
+<plugin
 	xmlns="http://apache.org/cordova/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	id="co.themobilefirm.FlurryPlugin"
@@ -13,7 +13,7 @@
 	<js-module src="www/flurryPlugin.js" name="FlurryPlugin">
 		<clobbers target="FlurryPlugin" />
 	</js-module>
-	
+
 	<engines>
 		<engine name="cordova" version="&gt;=3.0.0" />
 	</engines>
@@ -27,7 +27,6 @@
 		<header-file src="src/ios/Flurry.h" />
 		<header-file src="src/ios/FlurryPlugin.h" />
 		<source-file src="src/ios/FlurryPlugin.m" />
-		<source-file src="src/ios/libFlurry.a" framework="true" />
 		<framework src="CFNetwork.framework" />
 		<framework src="SystemConfiguration.framework" />
 		<framework src="Security.framework" />
@@ -42,7 +41,5 @@
 
 		<source-file src="src/android/Flurry.java"
 						target-dir="src/co/themobilefirm/plugins" />
-		<source-file src="src/android/FlurryAnalytics.jar"
-						target-dir="libs" />
 	</platform>
 </plugin>
